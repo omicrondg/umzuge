@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-Medium.ttf) format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(./Lobster-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
