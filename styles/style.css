@@ -1,0 +1,101 @@
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.header {}
+
+.contacts {
+    block-size: 120px;
+    display: flex;
+}
+
+.intro-menu {
+    block-size: calc(100vh - 120px);
+    background-image: url(../images/slider_1.jpg);
+    background-size: 100% 88%;
+    background-repeat: no-repeat;
+    
+}
+
+.title-icon {
+    block-size: 200px;
+    aspect-ratio: 1 / 1;
+    background-repeat: no-repeat;
+}
+
+.globe {
+    background-image: url(../svg/011_world_ic_optimized.svg);
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    color:rgba(255, 255, 255, 1)
+}
+
+.card-menu {
+    max-inline-size: 1100px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 34px;
+}
+
+.card-menu-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 75px;
+}
+
+.card-menu-list-item {
+    list-style: none;
+}
+
+.card-menu-link {
+    text-decoration: none;
+}
+
+.card {
+    max-block-size: 300px;
+    padding: 18px;
+    box-shadow:
+        9px 4px 12px rgba(0, 0, 0, 0.1),
+        12px 4px 20px rgba(0, 0, 0, 0.1),
+        2px 4px 10px rgba(0, 0, 0, 0.1),
+        -5px 5px 12px rgba(0, 0, 0, 0.1),
+        -2px 5px 18px rgba(0, 0, 0, 0.1); 
+}
+
+.card-icon {
+    block-size: 70px;    
+    background-repeat: no-repeat;    
+    background-position: left center;
+}
+
+.car {
+    background-image: url(../svg/05_car_ic_optimized.svg);
+}
+
+.airplane {
+    background-image: url(../svg/06_air_ic_optimized.svg);
+}
+
+.ship {
+    background-image: url(../svg/07_ship_ic_optimized.svg);
+}
+
+.box {
+    background-image: url(../svg/08_box_ic_optimized.svg);
+}
+
+.card-heading {
+    font-family: Lobster, Roboto, sans-serif;
+    font-size: 18px;
+    color: rgba(0, 76, 226, 1);
+    margin-block-start: 5px;
+    margin-block-end: 20px;
+    
+}
