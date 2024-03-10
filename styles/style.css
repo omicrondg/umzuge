@@ -33,7 +33,7 @@ body {
 .address {
   font-style: normal;
   text-align: end;
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: 500;
 }
 
@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
 }
 
 .title-group {
@@ -142,7 +142,7 @@ body {
 }
 
 .card-heading {
-  font-size: 22px;
+  /* font-size: 22px; */
   font-weight: 400;
   color: rgba(0, 76, 226, 1);
 }
@@ -168,18 +168,18 @@ body {
 .article-title {
   color: rgba(0, 76, 226, 1);
   font-style: italic;
-  font-size: 40px;
+  /* font-size: 40px; */
   font-weight: 500;
 }
 
 .article-text {
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 32px;
 }
 
 .footer {
   background-color: rgba(0, 105, 162, 1);
-  font-size: 20px;
+  /* font-size: 20px; */
   display: flex;
   justify-content: space-between;
   color: #fff;
